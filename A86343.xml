@@ -1,0 +1,442 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A high and heavenly eccho. By a faithful minister of the Gospel.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1653</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 16 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A86343</idno>
+            <idno type="STC">Wing H1960</idno>
+            <idno type="STC">Thomason 669.f.17[23]</idno>
+            <idno type="STC">ESTC R211550</idno>
+            <idno type="EEBO-CITATION">99870266</idno>
+            <idno type="PROQUEST">99870266</idno>
+            <idno type="VID">163273</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A86343)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 163273)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 246:669f17[23])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A high and heavenly eccho. By a faithful minister of the Gospel.</title>
+               </titleStmt>
+               <extent>1 sheet ([1] p.)   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John Rothwell, at the Fountain and Bear in Cheapside,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1653.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In two parts: 'Explanatory verses, conteining, as the occasion of, so cautions for the understanding the following Scripture-ecchoes' and 'The Eccho'.</note>
+                  <note>Verse - "Nigh to ones house an answering eccho is;".</note>
+                  <note>Signed at end: By a faithful minister of the Gospel.</note>
+                  <note>Annotation on Thomason copy: "June 23".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian poetry, English --  Early modern, 1500-1700.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-11</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="explanatory_poem">
+            <pb facs="tcp:163273:1" rendition="simple:additions"/>
+            <head>A HIGH AND HEAVENLY ECCHO.
+Explanatory Verſes, conteining, as the occaſion of, ſo cautions for the underſtanding the following Scripture-Ecchoes.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">N</seg>Igh to ones houſe an anſwering Eccho is;</l>
+               <l>Many have heard it, and they ſay it is</l>
+               <l>A None-ſuch Eccho, the like not having found,</l>
+               <l>With ſome content hearing the ſame re-ſound,</l>
+               <l>Once, and again, mean while 'twas well remember'd</l>
+               <l>What had long ſince been out of Pulpit heard;</l>
+               <l>Another Eccho, That God commanded</l>
+               <l>Seeke ye my face, <hi>It was returned,</hi>
+               </l>
+               <l>Lord we will ſeeke thy face: <hi>not properly,</hi>
+               </l>
+               <l>This then was call'd an Eccho, certainly:</l>
+               <l>Eccho the ſelf-ſame words, as ſpoken, doth re-ſound,</l>
+               <l>The words which now are here, now there are found:</l>
+               <l>On this occaſion muſing, 'twas thought</l>
+               <l>A Scripture-Eccho, ſure might be found out.</l>
+               <l>Great is (indeed) Gods bleſſed condeſcenſion,</l>
+               <l>Who teacheth man by man, to the ſame paſſion</l>
+               <l>Subject, And in the ſelf-ſame condemnation,</l>
+               <l>That men might learn, being taught with much compaſſion</l>
+               <l>Not only thus; but God to help mans faith,</l>
+               <l>Teacheth things heavenly by the things on earth.</l>
+               <l>The print on Wax anſwers the Seal that made it;</l>
+               <l>So doth Gods grace in man unto the God who gave it.</l>
+               <l>Or as a face doth anſwer unto face in Glaſſe,</l>
+               <l>So doth mans heart to God, where there is grace.</l>
+               <l>Men ſpeaking to an Eccho, Eccho doth anſwer them,</l>
+               <l>Even ſo Gods grace in man doth anſwer unto him.</l>
+               <l>Great familiarity 'twill ſeeme there is</l>
+               <l>'Twixt God and ſuch men as are neerly his.</l>
+               <l>That you miſtake not then the following Ecchoings,</l>
+               <l>Obſerve well firſt ſome premis'd cautions:</l>
+               <l>What of the Lord is ſaid, with reverence is ſaid,</l>
+               <l>Not God debaſing, but let him be ador'd:</l>
+               <l>God being infinite, the diſtance then,</l>
+               <l>Is infinite betwixt our God and men.</l>
+               <l>What's ſaid by him, he not depending on them,</l>
+               <l>'Tis ſaid, but what's by them's depending on him.</l>
+               <l>He from himſelf is what he is to them,</l>
+               <l>Saints from their God are what they are to him.</l>
+               <l>God what he is, 'tis without bounds to them;</l>
+               <l>What meaſure men receive, they are to him.</l>
+               <l>They not beginning thus, and thus with him.</l>
+               <l>But he beginning thus, and thus with them,</l>
+               <l>What's done by God, is done with great perfection,</l>
+               <l>What's done by Saints on earth hath its pollution.</l>
+               <l>Reſerving thus to God what's due to him as God,</l>
+               <l>To Gods diſhonour dreading to pen a word;</l>
+               <l>Reading what follows to be read, therefrom</l>
+               <l>Improvement make (with care) firſt to inform.</l>
+               <l>The Lord is not to them a portion, no:</l>
+               <l>Whoſe hearts anſwer not him, Ecchoing ſo;</l>
+               <l>But in whoſe hearts the Lord his Law hath put,</l>
+               <l>They happy are; examine we our ſtate.</l>
+               <l>As print to Seal, as face to face, and Eccho anſwereth;</l>
+               <l>Doth ſo thy heart to God? if there be grace in truth</l>
+               <l>It will; if yet it do not, do not thou</l>
+               <l>Conclude it never will; no, do not ſo.</l>
+               <l>The Lord may ſeize upon thy heart, and make</l>
+               <l>Thy heart to him, as follows, Eccho back.</l>
+               <l>But as for ſuch as Eccho to the Lord,</l>
+               <l>Anſwering him according to his Word;</l>
+               <l>They may not boaſt: for all the good they have,</l>
+               <l>Was firſt in Chriſt, from him they did receive.</l>
+               <l>Such thanks ſhould give to Chriſt, as from a Spring,</l>
+               <l>From him they have this bleſſed Ecchoing.</l>
+               <l>Comfort moſt ſafe as well as ſweet may ſuch ſuck out from this,</l>
+               <l>Who Ecchoing truly unto God, there God they know he is.</l>
+            </lg>
+            <lg>
+               <l>Theſe cautions taken as an Antidote,</l>
+               <l>More uſes may be made then here are wrote.</l>
+            </lg>
+            <lg>
+               <l>Twelve Syllables at once that Eccho well repeateth,</l>
+               <l>Twelve Syllables in this [<hi>Reader</hi>] each line rehearſeth,</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>THE ECCHO.</head>
+            <div type="part">
+               <head>God ſpeaketh.</head>
+               <l>I Chuſing did chuſe thee, Thou chuſing did'ſt chuſe me.</l>
+               <l>Thouſands I paſſed by, I pitch'd my love on thee.</l>
+               <l>Thouſands thou paſſedſt by, And ſett'ſt thy love on me.</l>
+               <l>Thouſands I might have lov'd, And might have paſt
+by thee.</l>
+               <l>Thouſands thou might'ſt have lov'd, And might'ſt have
+paſt by me.</l>
+               <l>Precious I do think thee, Precious thou do'ſt think me.</l>
+               <l>Alone I let not thee, Alone thou lett'ſt not me.</l>
+               <l>I have took hold on thee, Thou haſt took hold on me.</l>
+               <l>Seized on thee have I, Seized on me haſt thou.</l>
+               <l>I ioyn my ſelfe to thee, Thou ioyn'ſt thy ſelf to me.</l>
+               <l>Poſſeſſion thou art mine, Poſſeſſion I am thine.</l>
+               <l>I dwell alwayes in thee, Thou dwell'ſt alwayes in me.</l>
+               <l>I walk alwayes in thee, Thou walk'ſt alwayes in me.</l>
+               <l>I gave my ſelfe to thee, Thou gav'ſt thy ſelf to me.</l>
+               <l>I ſet my heart on thee, Thou ſett'ſt thy heart on me.</l>
+               <l>Portion I am to thee, Treaſure thou art to me.</l>
+               <l>Thou art, beloved, mine; I am, beloved, thine.</l>
+               <l>Contented I'le not be with thine, but with thy ſelf.</l>
+               <l>Contented thoul't not be with mine, but with my ſelf.</l>
+               <l>All that I am it's thine, All that thou art it's mine.</l>
+               <l>I do abide in thee, Thou do'ſt abide in me.</l>
+               <l>Mine eye is ſtill on thee, Thine eye is ſtill on me.</l>
+               <l>I reſt my love on thee, Thou reſt'ſt thy love on me.</l>
+               <l>I do delight in thee, Thou do'ſt delight in me.</l>
+               <l>I am a friend to thee, Thou art a friend to me.</l>
+               <l>Kindneſſe to them ſhew I, which kindneſſe ſhew to thee.</l>
+               <l>Kindneſſe to them ſhew'ſt thou, which kindneſſe ſhew
+to me.</l>
+               <l>Foes who are ſo to me, Thou counteſt foes to thee.</l>
+               <l>I never will have peace with ſuch as war with thee.</l>
+               <l>Thou never wilt have peace with ſuch as war with me.</l>
+               <l>I take part ſtill with thee againſt thy foes that be.</l>
+               <l>Thou tak'ſt part ſtill with me againſt my foes that be.</l>
+               <l>I am ſomewhat like thee, thou art ſomewhat like me.</l>
+               <l>Both juſt and true am I, Both juſt and true art thou.</l>
+               <l>Juſt in dealings am I, Juſt in dealiings art thou.</l>
+               <l>True of my words am I, True of thy words art thou.</l>
+               <l>Bent to mercie am I, Bent to mercie art thou.</l>
+               <l>Such as ſerve me in love, Although they do not well,</l>
+               <l>I accept of their wils; Thus likewiſe doeſt thou.</l>
+               <l>For evill good do I, For evill good do'ſt thou.</l>
+               <l>Holy likewiſe am I, Holy likewiſe art thou.</l>
+               <l>Patient alſo am I, Patient alſo art thou.</l>
+               <l>Such as do anger me, Such long forbear do I:</l>
+               <l>Such as do anger thee, ſuch long forbeareſt thou.</l>
+               <l>Such Angels and ſuch men, as good and holy are:</l>
+               <l>Such are prized by me, Such are prized by thee.</l>
+               <l>What hated is by me, That hated is by thee.</l>
+               <l>Sins of all kindes hate I, Sins of all kindes hat'ſt thou.</l>
+               <l>Such doings and ſuch words, as hated are by me,</l>
+               <l>Such doings and ſuch words are hatefull unto thee.</l>
+               <l>What is belov'd by me, That is belov'd by thee.</l>
+               <l>Thoſe Angels and thoſe men, which holy are and good,</l>
+               <l>Beloved are by me, Such are belov'd by thee.</l>
+               <l>That which well pleaſeth me, That alſo pleaſeth thee.</l>
+               <l>Such Angels and ſuch men obeying do pleaſe me:</l>
+               <l>Such Angels and ſuch men obeying do pleaſe thee.</l>
+            </div>
+            <div type="part">
+               <head>The Believer Eccho's.</head>
+               <l>I Chuſing did chuſe thee, Thou chuſing did'ſt chuſe me.</l>
+               <l>Thouſands I paſſed by, I pitch'd my love on thee.</l>
+               <l>Thouſands thou paſſedſt by, And ſett'ſt thy love on me.</l>
+               <l>Thouſands I might have lov'd, And might have paſt
+by thee.</l>
+               <l>Thouſands thou might'ſt have lov'd, And might'ſt have
+paſt by me.</l>
+               <l>Precious I do think thee, Precious thou do'ſt think me.</l>
+               <l>Alone I let not thee, Alone thou lett'ſt not me.</l>
+               <l>I have took hold on thee, Thou haſt took hold on me.</l>
+               <l>Seized on thee have I, Seized on me haſt thou.</l>
+               <l>I ioyn my ſelfe to thee, Thou ioyn'ſt thy ſelf to me.</l>
+               <l>Poſſeſſion thou art mine, Poſſeſſion I am thine.</l>
+               <l>I dwell alwayes in thee, Thou dwell'ſt alwayes in me.</l>
+               <l>I walk alwayes in thee, Thou walk'ſt alwayes in me.</l>
+               <l>I gave my ſelfe to thee, Thou gav'ſt thy ſelf to me.</l>
+               <l>I ſet my heart on thee, Thou ſett'ſt thy heart on me.</l>
+               <l>Portion I am to thee, Treaſure thou art to me.</l>
+               <l>Thou art, beloved, mine; I am, beloved, thine.</l>
+               <l>Contented I'le not be with thine, but with thy ſelf.</l>
+               <l>Contented thoul't not be with mine, but with my ſelf.</l>
+               <l>All that I am it's thine, All that thou art it's mine.</l>
+               <l>I do abide in thee, Thou do'ſt abide in me.</l>
+               <l>Mine eye is ſtill on thee, Thine eye is ſtill on me.</l>
+               <l>I reſt my love on thee, Thou reſt'ſt thy love on me.</l>
+               <l>I do delight in thee, Thou do'ſt delight in me.</l>
+               <l>I am a friend to thee, Thou art a friend to me.</l>
+               <l>Kindneſſe to them ſhew I, which kindneſſe ſhew to thee.</l>
+               <l>Kindneſſe to them ſhew'ſt thou, which kindneſſe ſhew
+to me.</l>
+               <l>Foes who are ſo to me, Thou counteſt foes to thee.</l>
+               <l>I never will have peace with ſuch as war with thee.</l>
+               <l>Thou never wilt have peace with ſuch as war with me.</l>
+               <l>I take part ſtill with thee againſt thy foes that be.</l>
+               <l>Thou tak'ſt part ſtill with me againſt my foes that be.</l>
+               <l>I am ſomewhat like thee, thou art ſomewhat like me.</l>
+               <l>Both juſt and true am I, Both juſt and true art thou.</l>
+               <l>Juſt in dealings am I, Juſt in dealiings art thou.</l>
+               <l>True of my words am I, True of thy words art thou.</l>
+               <l>Bent to mercie am I, Bent to mercie art thou.</l>
+               <l>Such as ſerve me in love, Although they do not well,</l>
+               <l>I accept of their wils; Thus likewiſe doeſt thou.</l>
+               <l>For evill good do I, For evill good do'ſt thou.</l>
+               <l>Holy likewiſe am I, Holy likewiſe art thou.</l>
+               <l>Patient alſo am I, Patient alſo art thou.</l>
+               <l>Such as do anger me, Such long forbear do I:</l>
+               <l>Such as do anger thee, ſuch long forbeareſt thou.</l>
+               <l>Such Angels and ſuch men, as good and holy are:</l>
+               <l>Such are prized by me, Such are prized by thee.</l>
+               <l>What hated is by me, That hated is by thee.</l>
+               <l>Sins of all kindes hate I, Sins of all kindes hat'ſt thou.</l>
+               <l>Such doings and ſuch words, as hated are by me,</l>
+               <l>Such doings and ſuch words are hatefull unto thee.</l>
+               <l>What is belov'd by me, That is belov'd by thee.</l>
+               <l>Thoſe Angels and thoſe men, which holy are and good,</l>
+               <l>Beloved are by me, Such are belov'd by thee.</l>
+               <l>That which well pleaſeth me, That alſo pleaſeth thee.</l>
+               <l>Such Angels and ſuch men obeying do pleaſe me:</l>
+               <l>Such Angels and ſuch men obeying do pleaſe thee.</l>
+            </div>
+            <div type="part">
+               <head>God ſpeaketh.</head>
+               <l>Good doings and good words of ſuch as holy be,</l>
+               <l>They pleaſing are to me, They pleaſing are to thee.</l>
+               <l>What doeth anger me, That doeth anger thee.</l>
+               <l>Ill doings and ill words of ſuch as wicked are:</l>
+               <l>'Tis ſuch that anger me, 'Tis ſuch that anger thee.</l>
+               <l>What grievous is to me, That grievous is to thee.</l>
+               <l>Diviſions of the good, They grievous are to me:</l>
+               <l>Diviſions of the good, They grievous are to thee.</l>
+               <l>Afflictions of the Saints are grievous unto me:</l>
+               <l>Afflictions of the Saints are grievous unto thee.</l>
+               <l>Acquaintance I am thine, Acquaintance thou art mine.</l>
+               <l>Suitableneſſe (it ſeems) is between me and thee:</l>
+               <l>Reconciled am I to thee, and thou to me</l>
+               <l>Art reconciled ſo, that peace ſhall ever be.</l>
+               <l>Becauſe I am agreed with thee, and thou with me:</l>
+               <l>Therefore I walk with thee, Therefore thou walk'ſt
+with me.</l>
+               <l>Much aſſurance have I given that I am thine,</l>
+               <l>And ever ſhall remain, The ſame thing haſt thou done.</l>
+               <l>I give my word I'me thine, Thou giv'ſt thy word thou'rt
+mine:</l>
+               <l>Mine Oath thou haſt I'me thine, Thy Oath I have
+thou'rt mine.</l>
+               <l>I ſeal to aſſure thee, Thou ſeal'ſt to aſſure me.</l>
+               <l>I witneſſe have thou'rt mine, Thou witneſs haſt I'me
+thine.</l>
+               <l>I earneſt give to thee, Thou earneſt giv'ſt to me.</l>
+               <l>I will never leave thee, nor will I thee forſake:</l>
+               <l>Thou wilt never leave me, nor wilt thou me forſake.</l>
+               <l>I will not loſe what I have done ere now for thee:</l>
+               <l>Thou wilt not loſe what thou haſt done ere now for me.</l>
+               <l>That commerce which have I with thee ſhall more
+increaſe,</l>
+               <l>Be full, and never end: Thus likewiſe 'tis with thee.</l>
+               <l>If I ſhould now leave thee, Then all I 've done is loſt:</l>
+               <l>If thou ſhould'ſt now leave me, Then all thou'ſt done
+is loſt.</l>
+               <l>I'le ne're have done with thee, Till that thou be with me:</l>
+               <l>Thou'lt nere have done with me, Till that I be with
+thee.</l>
+               <l>When I get thee to me, And thou gett'ſt me to thee:</l>
+               <l>I'le never part from thee, Thou'lt never part from me.</l>
+            </div>
+            <div type="part">
+               <head>The Believer Eccho's.</head>
+               <lg>
+                  <l>Good doings and good words of ſuch as holy be,</l>
+                  <l>They pleaſing are to me, They pleaſing are to thee.</l>
+                  <l>What doeth anger me, That doeth anger thee.</l>
+                  <l>Ill doings and ill words of ſuch as wicked are:</l>
+                  <l>'Tis ſuch that anger me, 'Tis ſuch that anger thee.</l>
+                  <l>What grievous is to me, That grievous is to thee.</l>
+                  <l>Diviſions of the good, They grievous are to me:</l>
+                  <l>Diviſions of the good, They grievous are to thee.</l>
+                  <l>Afflictions of the Saints are grievous unto me:</l>
+                  <l>Afflictions of the Saints are grievous unto thee.</l>
+                  <l>Acquaintance I am thine, Acquaintance thou art mine.</l>
+                  <l>Suitableneſſe (it ſeems) is between me and thee:</l>
+                  <l>Reconciled am I to thee, and thou to me</l>
+                  <l>Art reconciled ſo, that peace ſhall ever be.</l>
+                  <l>Becauſe I am agreed with thee, and thou with me:</l>
+                  <l>Therefore I walk with thee, Therefore thou walk'ſt
+with me.</l>
+                  <l>Much aſſurance have I given that I am thine,</l>
+                  <l>And ever ſhall remain, The ſame thing haſt thou done.</l>
+                  <l>I give my word I'me thine, Thou giv'ſt thy word thou'rt
+mine:</l>
+                  <l>Mine Oath thou haſt I'me thine, Thy Oath I have
+thou'rt mine.</l>
+                  <l>I ſeal to aſſure thee, Thou ſeal'ſt to aſſure me.</l>
+                  <l>I witneſſe have thou'rt mine, Thou witneſs haſt I'me
+thine.</l>
+                  <l>I earneſt give to thee, Thou earneſt giv'ſt to me.</l>
+                  <l>I will never leave thee, nor will I thee forſake:</l>
+                  <l>Thou wilt never leave me, nor wilt thou me forſake.</l>
+                  <l>I will not loſe what I have done ere now for thee:</l>
+                  <l>Thou wilt not loſe what thou haſt done ere now for me.</l>
+                  <l>That commerce which have I with thee ſhall more
+increaſe,</l>
+                  <l>Be full, and never end: Thus likewiſe 'tis with thee.</l>
+                  <l>If I ſhould now leave thee, Then all I 've done is loſt:</l>
+                  <l>If thou ſhould'ſt now leave me, Then all thou'ſt done
+is loſt.</l>
+                  <l>I'le ne're have done with thee, Till that thou be with me:</l>
+                  <l>Thou'lt nere have done with me, Till that I be with
+thee.</l>
+                  <l>When I get thee to me, And thou gett'ſt me to thee:</l>
+                  <l>I'le never part from thee, Thou'lt never part from me.</l>
+               </lg>
+               <lg>
+                  <l>&amp;c.</l>
+                  <l>&amp;c. here is put to what is above ſaid,</l>
+                  <l>To what invented is 'tis eaſie for to add.</l>
+               </lg>
+               <lg>
+                  <l>Say ſo it is will holy hearts unto theſe Ecchoings;</l>
+                  <l>But graceleſſe hearts perhaps will think they are very ſtrange things.</l>
+               </lg>
+               <lg>
+                  <l>As if ſix Bels were rung juſt at the Vale</l>
+                  <l>Where th' Eccho is, Eccho would anſwer all:</l>
+               </lg>
+               <lg>
+                  <l>So here, this Eccho [<hi>Reader</hi>] may be ſung</l>
+                  <l>Unto the Tune, as when ſix Bels are rung.</l>
+               </lg>
+               <byline>By a faithful Miniſter of the Goſpel.</byline>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>London,</hi> Printed for <hi>John Rothwell,</hi> at the Fountain and Bear in <hi>Cheapſide,</hi> 1653.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
